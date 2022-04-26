@@ -1,0 +1,6 @@
+# ignore:
+#   - PrimaryBlack
+
+input: Assets.xcassets/Colors
+
+output: ColorResources.swift

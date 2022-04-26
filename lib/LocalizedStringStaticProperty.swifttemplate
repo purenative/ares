@@ -1,0 +1,3 @@
+    static var __RESOURCES__: String {
+        localizedString(for: "__RESOURCES__")
+    }

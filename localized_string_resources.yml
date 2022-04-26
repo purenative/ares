@@ -1,0 +1,2 @@
+input: Localization
+output: Localization/LocalizedStringsResources.swift

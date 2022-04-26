@@ -1,0 +1,24 @@
+import UIKit
+import SwiftUI
+
+extension UIColor {
+    
+    static func resource(_ colorResource: ColorResource) -> UIColor {
+        UIColor(named: colorResource.rawValue)!
+    }
+    
+}
+
+extension Color {
+    
+    static func resource(_ colorResource: ColorResource) -> Color {
+        Color(colorResource.rawValue)
+    }
+    
+}
+
+enum ColorResource: String {
+    
+__RESOURCES__
+    
+}
