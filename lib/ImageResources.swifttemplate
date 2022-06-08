@@ -3,24 +3,24 @@ import SwiftUI
 
 extension UIImage {
     
-    static func custom(_ imageResource: ImageResource) -> UIImage {
+    static func resource(_ imageResource: ImageResource) -> UIImage {
         UIImage(named: imageResource.rawValue)!
     }
     
-    static func customTemplate(_ imageResource: ImageResource) -> UIImage {
-        custom(imageResource).withRenderingMode(.alwaysTemplate)
+    static func resourceTemplate(_ imageResource: ImageResource) -> UIImage {
+        resource(imageResource).withRenderingMode(.alwaysTemplate)
     }
 
 }
 
 extension Image {
     
-    static func custom(_ imageResource: ImageResource) -> Image {
-        Image(uiImage: .custom(imageResource))
+    static func resource(_ imageResource: ImageResource) -> Image {
+        Image(uiImage: .resource(imageResource))
     }
     
-    static func customTemplate(_ imageResource: ImageResource) -> Image {
-        Image(uiImage: .customTemplate(imageResource))
+    static func resourceTemplate(_ imageResource: ImageResource) -> Image {
+        Image(uiImage: .resourceTemplate(imageResource))
     }
     
 }
