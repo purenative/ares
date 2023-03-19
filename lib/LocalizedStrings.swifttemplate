@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
 
     static func localizedString(for key: String,
                                 locale: Locale = .current) -> String {
@@ -15,7 +15,7 @@ extension String {
 
 }
 
-extension String {
+public extension String {
 
 __RESOURCES__
 
