@@ -1,6 +1,6 @@
 import SwiftUI
 
-extension LocalizedStringKey {
+public extension LocalizedStringKey {
 
 __RESOURCES__
 

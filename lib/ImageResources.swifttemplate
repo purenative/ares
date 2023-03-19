@@ -1,7 +1,7 @@
 import UIKit
 import SwiftUI
 
-extension UIImage {
+public extension UIImage {
     
     static func resource(_ imageResource: ImageResource) -> UIImage {
         UIImage(named: imageResource.rawValue)!
@@ -13,7 +13,7 @@ extension UIImage {
 
 }
 
-extension Image {
+public extension Image {
     
     static func resource(_ imageResource: ImageResource) -> Image {
         Image(uiImage: .resource(imageResource))
