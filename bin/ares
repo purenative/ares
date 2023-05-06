@@ -1,4 +1,0 @@
-require 'ares'
-
-ares = ARES.new
-ares.run(ARGV)

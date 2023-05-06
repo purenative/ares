@@ -2,5 +2,4 @@
 #   - PrimaryBlack
 
 input: Assets.xcassets/Images
-
 output: ImageResources.swift
