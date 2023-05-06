@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    ares (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-darwin-20
+  x86_64-linux
+
+DEPENDENCIES
+  ares!
+
+BUNDLED WITH
+   2.4.3
